@@ -9,22 +9,29 @@ This repository implements the research pipeline for the **BREAKTHROUGH 05: Ther
 
 ## 📊 Pipeline Architecture
 
-The flowchart below visualizes the methodology and execution sequence implemented in this project:
+The flowchart below visualizes the methodology, code modules, and logical execution sequence of the project:
 
 ```mermaid
 graph TD
-    subgraph Modeling & Simulation
-        A["Physical Domain & Boundary Specifications"] --> B["CFD / Finite Element Structural Formulation"]
-        B --> C["High-Fidelity Numerical Simulation"]
+    subgraph "Phase 1: Environment & System Setup"
+        N0["Ingest & Parse: Thermoacoustic Rocket Engine Cooling"]
+        N1["From Absolute Zero Knowledge to Publishable Paper"]
     end
-    subgraph Optimization Engine
-        C --> D["Deep Learning Surrogate Optimization<br>PINNs / Gradient Boosted Ensembles"]
-        D --> E["Inverse Design Parametric Sweep"]
-        E --> F["Topology Optimization & Heat Sink Integration"]
+    subgraph "Phase 2: Signal & Core Processing"
+        N2["WHAT IS THIS ABOUT? (Explained Like Youre 10)"]
+        N3["BACKGROUND: BUILDING UP FROM ZERO"]
     end
-    subgraph Validation
-        F --> G["Physical Performance & Thermal Management Metrics"]
+    subgraph "Phase 3: Validation & Performance Evaluation"
+        N4["Rott Standing Wave"]
+        N5["Optimize Stack Position"]
+        N6["Regenerator Effectiveness"]
     end
+    N0 --> N1
+    N1 --> N2
+    N2 --> N3
+    N3 --> N4
+    N4 --> N5
+    N5 --> N6
 ```
 
 ---
