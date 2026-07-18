@@ -1,7 +1,7 @@
 # BREAKTHROUGH 05: Thermoacoustic Rocket Engine Cooling
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
+![Acoustic](https://img.shields.io/badge/Domain-Acoustic-blue) ![Rocket](https://img.shields.io/badge/Domain-Rocket-blue)
 
 This repository implements the research pipeline for the **BREAKTHROUGH 05: Thermoacoustic Rocket Engine Cooling** project, developed by the Runtime-Slayers research group.
 
@@ -38,7 +38,7 @@ graph TD
 
 ## 🔍 Abstract & Research Context
 
-
+### From Absolute Zero Knowledge to Publishable Paper --- # PART A: UNDERSTANDING THE WORLD YOU'RE ENTERING --- ## 1. WHAT IS THIS ABOUT? (Explained Like You're 10) Rocket engines are the hottest human-made environments on Earth. The combustion chamber of a liquid rocket engine reaches **3000-3500°C** — hot enough to melt any known metal (tungsten melts at 3422°C, but loses strength at 2000°C). The gas temperature in the exhaust nozzle throat can exceed 3300°C.
 
 ---
 
