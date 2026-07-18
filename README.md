@@ -14,16 +14,16 @@ The flowchart below visualizes the methodology and execution sequence implemente
 ```mermaid
 graph TD
     subgraph Modeling & Simulation
-        A[Physical Domain & Boundary Specifications] --> B[CFD / Finite Element Structural Formulation]
-        B --> C[High-Fidelity Numerical Simulation]
+        A["Physical Domain & Boundary Specifications"] --> B["CFD / Finite Element Structural Formulation"]
+        B --> C["High-Fidelity Numerical Simulation"]
     end
     subgraph Optimization Engine
-        C --> D[Deep Learning Surrogate Optimization<br>PINNs / Gradient Boosted Ensembles]
-        D --> E[Inverse Design Parametric Sweep]
-        E --> F[Topology Optimization & Heat Sink Integration]
+        C --> D["Deep Learning Surrogate Optimization<br>PINNs / Gradient Boosted Ensembles"]
+        D --> E["Inverse Design Parametric Sweep"]
+        E --> F["Topology Optimization & Heat Sink Integration"]
     end
     subgraph Validation
-        F --> G[Physical Performance & Thermal Management Metrics]
+        F --> G["Physical Performance & Thermal Management Metrics"]
     end
 ```
 
